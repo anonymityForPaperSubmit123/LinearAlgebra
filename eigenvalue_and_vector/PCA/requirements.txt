@@ -1,0 +1,9 @@
+matplotlib
+numpy
+sklearn
+scipy
+colourmap
+wget
+pandas
+tqdm
+scatterd

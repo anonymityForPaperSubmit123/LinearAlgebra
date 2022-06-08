@@ -1,0 +1,12 @@
+Animate[Show[ 
+      Graphics[{Thick, Blue, 
+      Arrow[{{0, 0}, {2 Cos[t] + Sin[t], Cos[t] + Sin[t]}}],
+      Thick, Red, Arrow[{{0, 0}, {Cos[t], Sin[t]}}], Red, 
+      Circle[{0, 0}, 1, {0, t}]},
+      PlotRange -> {{-3, 3}, {-3, 3}}, AspectRatio -> 1, Axes -> True, 
+      AxesStyle -> Arrowheads[0.02]],
+      ParametricPlot[{2 Cos[s] + Sin[s], Cos[s] + Sin[s]}, {s, 0, t}, 
+      PlotRange -> {{-3, 3}, {-3, 3}}, AspectRatio -> 1, Axes -> True, 
+      AxesStyle -> Arrowheads[0.02]]
+      ],
+      {t, 0.0001, 4 Pi} , AnimationRunning -> False]
